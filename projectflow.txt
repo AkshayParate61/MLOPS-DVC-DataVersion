@@ -11,3 +11,5 @@
    [Note: Its like 'git add .' command and after running this command we expected error like 'git' 
    already tracking and we you want to track 'dvc' the must run these two command 1.'git rm -r --cached 'data'', 2.'git commit -m "stop tracking data"']
 8. Again we do "dvc add data/" (creates data.dvc) then "git add .gitignore data.dvc"
+9. Now - "dvc commit" and then "dvc push"
+10. Do a git add-commit-push to mark this stage as first version of data.
